@@ -1,0 +1,81 @@
+.nav {
+    display :flex;
+    width: 100%;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+}
+.nav__list{
+    display:flex;
+    gap: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: var(--MARGIN);
+    height: 80vh;
+}
+.section-card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title-h2{
+    text-align: center;
+    font-size: 2em;
+}
+.tile-h3{
+    text-align: center;
+    padding: 0.1em;
+}
+
+.card {
+    height:300px;
+    
+    width: 300px;
+}
+.competences{
+    display: flex;
+    height:90vh;
+    width: 100%;
+    padding: var(--PADDING);
+    justify-content: space-evenly;
+}
+.section-card{
+    display: flex;
+    flex-direction: column;
+}
+.projets__container {
+    padding: var(--PADDING);
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.projets__card {
+    height: 50%;
+    width: 30%;
+}
+.form {
+    padding:var(--PADDING);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button {
+   
+}
+footer{
+    text-align: center;
+}
