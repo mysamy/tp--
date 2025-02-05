@@ -6,7 +6,7 @@
     --FS: clamp(1rem, calc(1rem + 2vw), 2rem);
 
     /* COLORS */
-    --BG-COLOR: ;
+    --BG-COLOR: white;
     --BG-COLOR2: ;
     --FONT-COLOR: ;
     --BORDER-COLOR: white ;

@@ -1,0 +1,27 @@
+
+ /* SECTION 1 */
+ .section-competences {
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	width: 100%;
+	padding: var(--PADDING);
+	align-items: center;
+ }
+
+ /* SECTION 2 */
+ .section-projets {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ 
+ }
+ 
+.section-contact {
+	margin: var(--MARGIN-TB);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ 
